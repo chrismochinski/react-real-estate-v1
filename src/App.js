@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import './App.css';
 
 function App() {
   return (
     <>
-      <h1>What's up Y'aaaaalll?</h1>
+      <Navbar />
     </>
   );
 }
